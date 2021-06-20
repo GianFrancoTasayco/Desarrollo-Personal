@@ -6,12 +6,12 @@
     width: 100%;
 }
 .centro{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 header{
     text-align: center;
-    padding: 15px;
+    padding: 30px;
 }
 .EP,
 .MP,
@@ -51,4 +51,32 @@ header{
 .EA .flex{
     display: flex;
     flex-direction: column;
+}
+.TEO div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.TEO .flex{
+    display: flex;
+    flex-direction: column;
+}
+.MP div{
+    padding: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+}
+.EP .grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.EP .flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.EP .flex p{
+    width: 50%;
+    padding: 15px 0;
 }
