@@ -12,5 +12,49 @@ $font: 'Josefin Sans', sans-serif;
                 text-shadow: 3px 3px 6px #5ec79c;
             }
         }
+        .EP,
+        .MP,
+        .TEO,
+        .EA,
+        .TF,
+        .foda{
+            h1{
+                color: #f5b062d8;
+                text-shadow: 3px 3px 6px #f5b062d8;
+            }
+        }
+        .foda{
+            p{
+                font-size: 20px;
+                font-weight: 600;
+            }
+            .tfc:first-of-type{
+                padding: 0px;
+                padding-top: 15px;   
+            }
+            .tfc:last-of-type{
+                padding: 0px;
+                padding-bottom: 15px;   
+            }
+            div{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                div{
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    gap: 0px;
+                    padding: 0;
+                    h1{
+                        font-size: 15px;
+                        color: #f57862d8;
+                    }
+                    p{
+                        font-size: 15px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
     }
 }

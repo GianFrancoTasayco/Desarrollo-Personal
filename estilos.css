@@ -8,5 +8,37 @@
     .contenedor .centro header h1 {
       color: #5ec79c;
       text-shadow: 3px 3px 6px #5ec79c; }
+    .contenedor .centro .EP h1,
+    .contenedor .centro .MP h1,
+    .contenedor .centro .TEO h1,
+    .contenedor .centro .EA h1,
+    .contenedor .centro .TF h1,
+    .contenedor .centro .foda h1 {
+      color: #f5b062d8;
+      text-shadow: 3px 3px 6px #f5b062d8; }
+    .contenedor .centro .foda p {
+      font-size: 20px;
+      font-weight: 600; }
+    .contenedor .centro .foda .tfc:first-of-type {
+      padding: 0px;
+      padding-top: 15px; }
+    .contenedor .centro .foda .tfc:last-of-type {
+      padding: 0px;
+      padding-bottom: 15px; }
+    .contenedor .centro .foda div {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); }
+      .contenedor .centro .foda div div {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 0px;
+        padding: 0; }
+        .contenedor .centro .foda div div h1 {
+          font-size: 15px;
+          color: #f57862d8; }
+        .contenedor .centro .foda div div p {
+          font-size: 15px;
+          font-weight: 400; }
 
 /*# sourceMappingURL=estilos.css.map */

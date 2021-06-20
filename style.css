@@ -19,7 +19,8 @@ header{
 .EA,
 .TF,
 .foda{
-    padding: 30px 15px;
+    padding: 0px 15px;
+    padding-top: 30px
 }
 .EP h1,
 .MP h1,
