@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+$font: 'Josefin Sans', sans-serif;
+.contenedor{
+    background: linear-gradient(to bottom, #f5b062d8, #5ec79c);
+    .centro{
+        font-family: $font;
+        background-color: #fff;
+        box-shadow: 0px 0px 20px 6px #000000;
+        header{
+            h1{
+                color: #5ec79c;
+                text-shadow: 3px 3px 6px #5ec79c;
+            }
+        }
+    }
+}
