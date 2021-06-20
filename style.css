@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    width: 100%;
+}
+.centro{
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+    padding: 15px;
+}
+.EP,
+.MP,
+.TEO,
+.EA,
+.TF,
+.foda{
+    padding: 30px 0px;
+}
+.EP h1,
+.MP h1,
+.TEO h1,
+.EA h1,
+.TF h1,
+.foda h1{
+    padding: 15px 0px;
+}
+
+.foda div{
+    padding: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.TF div{
+    padding: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.EA div{
+    padding: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.EA .flex{
+    display: flex;
+    flex-direction: column;
+}
