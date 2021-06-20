@@ -58,9 +58,6 @@ $font: 'Josefin Sans', sans-serif;
             }
         }
         .EA{
-            h1{
-                color: linear-gradient(to bottom, #f5b062d8, #5ec79c);
-            }
             .flex-EA{
                 display: flex;
                 flex-wrap: wrap;
@@ -107,6 +104,29 @@ $font: 'Josefin Sans', sans-serif;
                                 }
                             }
                         }
+                    }
+                }
+            }
+        }
+        .TEO{
+            p{
+                font-size: 20px;
+                font-weight: 600;
+            }
+            .grid{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                .flex{
+                    width: 500px;
+                    h1{
+                        font-size: 25px;
+                        color: #f57862d8;
+                        text-shadow: 3px 3px 6px #f57862d8;
+                    }
+                    div{
+                        display: flex;
+                        flex-direction: column;
                     }
                 }
             }

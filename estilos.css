@@ -47,8 +47,6 @@
         .contenedor .centro .foda div div p {
           font-size: 15px;
           font-weight: 400; }
-    .contenedor .centro .EA h1 {
-      color: linear-gradient(to bottom, #f5b062d8, #5ec79c); }
     .contenedor .centro .EA .flex-EA {
       display: flex;
       flex-wrap: wrap;
@@ -89,5 +87,21 @@
               .contenedor .centro .EA .flex-EA .flex .EA-G .tfc div p {
                 font-size: 15px;
                 font-weight: 400; }
+    .contenedor .centro .TEO p {
+      font-size: 20px;
+      font-weight: 600; }
+    .contenedor .centro .TEO .grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+      .contenedor .centro .TEO .grid .flex {
+        width: 500px; }
+        .contenedor .centro .TEO .grid .flex h1 {
+          font-size: 25px;
+          color: #f57862d8;
+          text-shadow: 3px 3px 6px #f57862d8; }
+        .contenedor .centro .TEO .grid .flex div {
+          display: flex;
+          flex-direction: column; }
 
 /*# sourceMappingURL=estilos.css.map */
